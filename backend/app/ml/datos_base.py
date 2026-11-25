@@ -1,0 +1,30 @@
+"""Dataset base documentado (MXN). Arranca el modelo; después se complementa con los
+costos reales confirmados por el administrador y guardados en MySQL."""
+
+DATOS_BASE = [
+    {"tipo": 'boda', "ciudad": 'Queretaro', "invitados": 100, "horas": 5, "servicios": 'banquete,dj', "costo_real": 62000},
+    {"tipo": 'boda', "ciudad": 'Queretaro', "invitados": 150, "horas": 6, "servicios": 'banquete,dj,decoracion', "costo_real": 89000},
+    {"tipo": 'boda', "ciudad": 'Queretaro', "invitados": 200, "horas": 7, "servicios": 'banquete,dj,decoracion,fotografia', "costo_real": 125000},
+    {"tipo": 'boda', "ciudad": 'CDMX', "invitados": 250, "horas": 8, "servicios": 'banquete,dj,decoracion,fotografia', "costo_real": 172000},
+    {"tipo": 'boda', "ciudad": 'San Juan del Rio', "invitados": 80, "horas": 5, "servicios": 'banquete,fotografia', "costo_real": 49000},
+    {"tipo": 'boda', "ciudad": 'Guadalajara', "invitados": 180, "horas": 6, "servicios": 'banquete,dj,decoracion', "costo_real": 108000},
+    {"tipo": 'boda', "ciudad": 'Monterrey', "invitados": 300, "horas": 8, "servicios": 'banquete,dj,decoracion,fotografia', "costo_real": 195000},
+    {"tipo": 'xv', "ciudad": 'San Juan del Rio', "invitados": 100, "horas": 5, "servicios": 'banquete,dj', "costo_real": 42000},
+    {"tipo": 'xv', "ciudad": 'Queretaro', "invitados": 150, "horas": 6, "servicios": 'banquete,dj,decoracion', "costo_real": 68000},
+    {"tipo": 'xv', "ciudad": 'Queretaro', "invitados": 200, "horas": 7, "servicios": 'banquete,dj,decoracion,fotografia', "costo_real": 98000},
+    {"tipo": 'xv', "ciudad": 'CDMX', "invitados": 120, "horas": 5, "servicios": 'banquete,dj,fotografia', "costo_real": 65000},
+    {"tipo": 'xv', "ciudad": 'Guadalajara', "invitados": 250, "horas": 7, "servicios": 'banquete,dj,decoracion,fotografia', "costo_real": 122000},
+    {"tipo": 'xv', "ciudad": 'San Juan del Rio', "invitados": 90, "horas": 4, "servicios": 'banquete', "costo_real": 31000},
+    {"tipo": 'cumpleanos', "ciudad": 'San Juan del Rio', "invitados": 40, "horas": 4, "servicios": 'banquete', "costo_real": 14500},
+    {"tipo": 'cumpleanos', "ciudad": 'Queretaro', "invitados": 60, "horas": 4, "servicios": 'banquete,dj', "costo_real": 23000},
+    {"tipo": 'cumpleanos', "ciudad": 'Queretaro', "invitados": 80, "horas": 5, "servicios": 'banquete,dj,decoracion', "costo_real": 32500},
+    {"tipo": 'cumpleanos', "ciudad": 'CDMX', "invitados": 100, "horas": 5, "servicios": 'banquete,dj,fotografia', "costo_real": 44000},
+    {"tipo": 'cumpleanos', "ciudad": 'Monterrey', "invitados": 50, "horas": 3, "servicios": 'banquete', "costo_real": 19500},
+    {"tipo": 'cumpleanos', "ciudad": 'Guadalajara', "invitados": 120, "horas": 6, "servicios": 'banquete,dj,decoracion', "costo_real": 47000},
+    {"tipo": 'corporativo', "ciudad": 'Queretaro', "invitados": 80, "horas": 3, "servicios": 'banquete', "costo_real": 36000},
+    {"tipo": 'corporativo', "ciudad": 'CDMX', "invitados": 120, "horas": 4, "servicios": 'banquete,fotografia', "costo_real": 64000},
+    {"tipo": 'corporativo', "ciudad": 'CDMX', "invitados": 200, "horas": 5, "servicios": 'banquete,dj,fotografia', "costo_real": 105000},
+    {"tipo": 'corporativo', "ciudad": 'Monterrey', "invitados": 300, "horas": 6, "servicios": 'banquete,dj,decoracion,fotografia', "costo_real": 158000},
+    {"tipo": 'corporativo', "ciudad": 'San Juan del Rio', "invitados": 60, "horas": 3, "servicios": 'banquete', "costo_real": 24000},
+    {"tipo": 'corporativo', "ciudad": 'Guadalajara', "invitados": 150, "horas": 5, "servicios": 'banquete,dj,decoracion', "costo_real": 79000},
+]

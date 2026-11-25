@@ -1,0 +1,19 @@
+# Secretos y entornos (NUNCA subir a GitHub)
+backend/.env
+backend/venv/
+**/__pycache__/
+*.pyc
+
+# Modelo generado (se entrena solo al arrancar)
+backend/app/ml/modelo.joblib
+backend/app/ml/metadata.json
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/.kotlin/
+*.apk
+hs_err_pid*.log
