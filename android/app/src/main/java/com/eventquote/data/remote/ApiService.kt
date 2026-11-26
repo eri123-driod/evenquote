@@ -63,7 +63,7 @@ interface ApiService {
 object RetrofitClient {
     // Emulador de Android Studio: 10.0.2.2 apunta al localhost de tu PC.
     // Telefono fisico: cambia por la IPv4 de tu PC, ej. "http://192.168.1.75:8000/"
-    const val BASE_URL = "http://127.0.0.1:8000/"
+    const val BASE_URL = "https://evenquote.onrender.com  "
 
     private val httpClient: OkHttpClient by lazy {
         OkHttpClient.Builder()
